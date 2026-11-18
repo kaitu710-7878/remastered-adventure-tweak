@@ -1,0 +1,6 @@
+{
+  "config.remastered_adventure_tweak.mob_drop_chance": "Hostile Mob Base Drop Chance",
+  "config.remastered_adventure_tweak.mob_looting_bonus_per_level": "Hostile Mob Looting Bonus Per Level",
+  "config.remastered_adventure_tweak.structure_drop_chance": "Structure Loot Table Drop Chance",
+  "config.remastered_adventure_tweak.exclude_spawn_bonus_chest": "Exclude Spawn Bonus Chest"
+}

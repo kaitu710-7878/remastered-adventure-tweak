@@ -1,0 +1,6 @@
+{
+  "config.remastered_adventure_tweak.mob_drop_chance": "敵対モブの基本ドロップ確率",
+  "config.remastered_adventure_tweak.mob_looting_bonus_per_level": "敵対モブのドロップ増加（幸運）1レベルあたりの加算確率",
+  "config.remastered_adventure_tweak.structure_drop_chance": "構造物ルートテーブルのドロップ確率",
+  "config.remastered_adventure_tweak.exclude_spawn_bonus_chest": "スポーンボーナスチェストを除外する"
+}
