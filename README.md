@@ -20,6 +20,8 @@
   - Loot table display compatibility was tested using **Advanced Loot Info** (ALI). Because the default drop rates are very low, ALI displays the chance as `0%` by default; however, raising the rates in the config confirms that the displayed chance properly increases above `0%`.
 - **ID-Only Dependency:**
   - Declares mod dependencies in `mods.toml` and references items solely by their namespaced IDs at runtime.
+- **Server-Side Compatible:**
+  - Can be installed on the server only in multiplayer (`IGNORESERVERONLY`); clients do not need to install this mod to join.
 
 ### Installation
 
@@ -44,6 +46,8 @@
   - ルートテーブル表記対応テストは **Advanced Loot Info** (ALI) を用いて実施しています。デフォルトの出現確率が非常に低いため ALI 上では確率 `0%` と表示されますが、コンフィグで確率を上げることでしっかり `0%` より大きい確率として表示されることを確認しています。
 - **独立した依存設計:**
   - `mods.toml` での依存関係宣言とアイテムID文字列による動的参照のみを行い、依存先MODのコードやアセットとは完全に無関係です。
+- **サーバー側のみ導入に対応:**
+  - マルチプレイではサーバー側のみへの導入（`IGNORESERVERONLY`）に対応しており、クライアント側に本MODが入っていなくても接続・プレイ可能です。
 
 ### 導入手順
 

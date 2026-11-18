@@ -1,5 +1,13 @@
 # Changelog / 変更履歴
 
+## 1.20.1-1.0.0-beta.2
+
+### English
+- Added server-side-only multiplayer support (`IExtensionPoint.DisplayTest` with `NetworkConstants.IGNORESERVERONLY` and `displayTest="IGNORE_SERVER_VERSION"` in `mods.toml`) so clients without this mod can join servers running it.
+
+### 日本語
+- マルチプレイにおいてサーバー側のみに導入した場合でも未導入クライアントが参加できるよう、`IExtensionPoint.DisplayTest`（`NetworkConstants.IGNORESERVERONLY`）および `mods.toml` の `displayTest="IGNORE_SERVER_VERSION"` を設定。
+
 ## 1.20.1-1.0.0-beta.1
 
 ### English
