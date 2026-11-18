@@ -17,7 +17,7 @@
   - Structure chests and archaeology loot tables (`chests/*`, `archaeology/*`, excluding `minecraft:chests/spawn_bonus_chest` by default) receive a vanilla `LootPool` with `random_chance` (0.05% chance by default).
 - **Loot Viewer Mod Compatibility:**
   - Because `LootPool` entries and conditions are injected directly on `LootTableLoadEvent`, drops and probabilities are visible in loot-viewer mods.
-  - Loot table display compatibility was tested using **Advanced Loot Info**.
+  - Loot table display compatibility was tested using **Advanced Loot Info** (ALI). Because the default drop rates are very low, ALI displays the chance as `0%` by default; however, raising the rates in the config confirms that the displayed chance properly increases above `0%`.
 - **ID-Only Dependency:**
   - Declares mod dependencies in `mods.toml` and references items solely by their namespaced IDs at runtime.
 
@@ -41,7 +41,7 @@
   - すべての構造物のチェスト・考古学ルートテーブル（`chests/*`, `archaeology/*`。デフォルトでスポーンボーナスチェストは除外）に、`random_chance` 条件を備えた `LootPool` を直接注入します（デフォルト確率 0.05%）。
 - **ルートテーブル表示系 MOD 対応:**
   - `LootTableLoadEvent` によりバニラ標準の `LootPool` として注入しているため、ルートテーブル確認系 MOD からもドロップ情報と確率を確認できます。
-  - ルートテーブル表記対応テストは **Advanced Loot Info** を用いて実施しています。
+  - ルートテーブル表記対応テストは **Advanced Loot Info** (ALI) を用いて実施しています。デフォルトの出現確率が非常に低いため ALI 上では確率 `0%` と表示されますが、コンフィグで確率を上げることでしっかり `0%` より大きい確率として表示されることを確認しています。
 - **独立した依存設計:**
   - `mods.toml` での依存関係宣言とアイテムID文字列による動的参照のみを行い、依存先MODのコードやアセットとは完全に無関係です。
 
